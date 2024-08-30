@@ -53,14 +53,17 @@ Reference to the DTLN paper:
 
 ## Dataset
 
-The model is trained on a dataset by Valentini-Botinhao and Cassia. It contains pairs of noisy and clean audio files. Their test dataset was used to train this model rather than their training dataset since their test dataset is smaller. It contains 825 pairs of noisy and clean audio files. 
+The model is trained on a dataset by Cassia Valentini-Botinhao. It contains pairs of noisy and clean audio files. Their test dataset was used to train this model rather than their training dataset since their test dataset is smaller. It contains 825 pairs of noisy and clean audio files. 
 
 The model was trained on the first 700 pairs of audio files and remaining pairs were used for testing and inference. The dataset was split without shuffling so that the files in the test dataset are known and could be used for inference later.
 
-Dataset Reference:
+Reference to the dataset:
 
 ```BibTex
-Valentini-Botinhao, Cassia. (2017). Noisy speech database for training speech enhancement algorithms and TTS models, 2016 [sound]. University of Edinburgh. School of Informatics. Centre for Speech Technology Research (CSTR). https://doi.org/10.7488/ds/2117.
+Valentini-Botinhao, Cassia. (2017). Noisy speech database for training speech
+enhancement algorithms and TTS models, 2016 [sound]. University of Edinburgh. 
+School of Informatics. Centre for Speech Technology Research (CSTR). 
+https://doi.org/10.7488/ds/2117.
 ```
 ---
 
